@@ -1,0 +1,220 @@
+/* Header Container */
+.header {
+    min-width: 1294px;
+    min-height: 56px;
+    margin-top: -1029px;
+    margin-left: 127px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Header Text and Logo */
+.header-text h3 {
+    color: #1D4ED8;
+    font-size: 20px;
+    font-weight: 600; /*semibold*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-text span {
+    color: #0B0B0B;
+    font-size: 12px;
+    font-weight: 300; /*light*/
+    position: relative;
+    top: -22px;
+}
+
+/* Dropdown Styles */
+.dropdown {
+    position: relative;
+    width: 321px;
+    height: 40px;
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    margin-top: -16px;
+    left: 34px;
+}
+.op-no
+{
+    color: #1D4ED8;
+    font-size: 16px;
+}
+.comma
+{
+    width: 2px;
+    height: 22px;
+    background-color: #E0E8FD;
+    margin-left: 12px;
+    margin-top: 2px;
+}
+.op
+{
+    position: absolute;
+    bottom: 12px;
+    left: 87px;
+}
+.after-op
+{
+    color: #037092;
+    background-color: #F3FAFC;
+    width: 64px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    position: relative;
+    left: 84px;
+}
+.dropdown-button {
+    color: #1D4ED8;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    font-weight: 500; /* Medium font weight */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 321px;
+    height: 40px;
+}
+
+/* Dropdown Content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 321px;
+    min-height: 72px;
+    z-index: 1;
+    background-color: #fff;
+    border-bottom-left-radius:16px ;
+    border-bottom-right-radius:16px ;
+}
+
+/* Dropdown Content Display on Hover */
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Dropdown Menu Items */
+.dropdown-content a {
+    text-decoration: none;
+    padding-left: 16px;
+    border-bottom: 1px solid #EEEEEE;
+    color: #0B0B0B;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dropdown .active
+{
+    background-color: #D1DDFF;
+    color: #1D4ED8;
+}
+.dropdown .number-active
+{
+    
+    color: #1D4ED8;
+}
+/* Span Within Dropdown Menu Items */
+.dropdown-content span {
+    margin-left: 176px;
+    width: 51px;
+    height: 25px;
+    background-color: #F8F8F8;
+    color: #444444;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Dropdown Item Hover */
+.dropdown-item:hover {
+    background-color: #3498db;
+    color: #fff;
+    font-size: 16px;
+}
+
+/* Dropdown Icon */
+.drop-ic {
+    margin-left: 90px;
+    margin-bottom: -2px;
+}
+
+/* Icons Section */
+.icons-holder {
+    width: 24px;
+    height: 24px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    color: #444444;
+}
+
+.header .icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 16px;
+    width: 231px;
+    height: 39px;
+    color: #444444;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+/* Confirm Button */
+.confirm-btn {
+background-color: #1D5ECD;
+width: 195px;
+height: 40px;
+text-align: center;
+position: relative;
+right: 92px;
+top: -7px;
+border-radius: 8px 0 0 8px;
+display: flex;
+}
+
+.confirm-btn button {
+    border: none;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 0px;
+    width: 160%;
+    margin-left: 18px;
+}
+
+/* Button Icon */
+.button-icon {
+    width: 43px;
+    height: 40px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #1D5ECD;
+    position: relative;
+    left: 22px;
+}
+
